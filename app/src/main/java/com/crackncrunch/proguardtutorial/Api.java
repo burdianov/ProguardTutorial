@@ -1,6 +1,10 @@
 package com.crackncrunch.proguardtutorial;
 
 
+import com.crackncrunch.proguardtutorial.response.PersonResponse;
+import com.crackncrunch.proguardtutorial.response.PersonResponse2;
+import com.crackncrunch.proguardtutorial.response.PersonResponse3;
+
 import retrofit2.Call;
 import retrofit2.http.GET;
 

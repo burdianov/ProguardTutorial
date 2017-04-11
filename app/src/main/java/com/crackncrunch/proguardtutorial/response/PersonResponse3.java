@@ -1,7 +1,9 @@
-package com.crackncrunch.proguardtutorial;
+package com.crackncrunch.proguardtutorial.response;
 
 
-public class PersonResponse3 {
+import com.crackncrunch.proguardtutorial.BaseResponse;
+
+public class PersonResponse3 implements BaseResponse {
     private String name;
     private int age;
 

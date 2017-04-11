@@ -1,15 +1,15 @@
-package com.crackncrunch.proguardtutorial;
+package com.crackncrunch.proguardtutorial.response;
 
 
-public class PersonResponse {
+import com.crackncrunch.proguardtutorial.BaseResponse;
+
+public class PersonResponse2 implements BaseResponse {
     private String name;
     private String secondName;
-    private int age;
 
-    public PersonResponse(String name, String secondName, int age) {
+    public PersonResponse2(String name, String secondName) {
         this.name = name;
         this.secondName = secondName;
-        this.age = age;
     }
 
     public String getName() {
@@ -18,9 +18,5 @@ public class PersonResponse {
 
     public String getSecondName() {
         return secondName;
-    }
-
-    public int getAge() {
-        return age;
     }
 }

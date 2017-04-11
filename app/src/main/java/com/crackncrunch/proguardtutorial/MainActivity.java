@@ -7,6 +7,9 @@ import android.util.Log;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.crackncrunch.proguardtutorial.response.PersonResponse;
+import com.crackncrunch.proguardtutorial.response.PersonResponse2;
+import com.crackncrunch.proguardtutorial.response.PersonResponse3;
 import com.google.gson.GsonBuilder;
 
 import java.io.IOException;
@@ -122,5 +125,6 @@ public class MainActivity extends AppCompatActivity {
     private void addText(String text) {
         String prev = mTextView.getText().toString();
         mTextView.setText(prev + "\n" + text);
+        //throw new RuntimeException("hey hey");
     }
 }
